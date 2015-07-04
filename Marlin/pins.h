@@ -655,10 +655,8 @@
     #define LED_PIN            13
   #endif
 
-  #if MB(RAMPS_13_EFB) || MB(RAMPS_13_EFF) || MB(AZTEEG_X3)
+  #if MB(RAMPS_13_EFB) || MB(RAMPS_13_EFF) || MB(AZTEEG_X3) || MB(AZTEEG_X3_PRO)
     #define FAN_PIN            9 // (Sprinter config)
-  #elif MB(AZTEEG_X3_PRO)
-    #define FAN_PIN            11 // Last Heater Pin on board
   #else
     #define FAN_PIN            4 // IO pin. Buffer needed
   #endif
