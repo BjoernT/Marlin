@@ -254,7 +254,7 @@ const short temptable_6[][2] PROGMEM = {
 #endif
 */
 
-#Based on the original calibration from FolgerTech
+//Based on the original calibration from FolgerTech
 #if (THERMISTORHEATER_0 == 6) || (THERMISTORHEATER_1 == 6) || (THERMISTORHEATER_2 == 6) || (THERMISTORBED == 6) // 100k Epcos thermistor
 const short temptable_6[][2] PROGMEM = {
    {47*OVERSAMPLENR, 250},
